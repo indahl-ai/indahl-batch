@@ -1,0 +1,17 @@
+{
+  "name": "indahl-batch",
+  "owner": {
+    "name": "Heuremen LLC",
+    "url": "https://indahl.ai"
+  },
+  "plugins": [
+    {
+      "name": "indahl-batch",
+      "source": "./",
+      "description": "Run a check or audit over something too big for one context window, such as a whole site, a large repo or a folder of papers. Splits the job into batches with fresh workers, writes results to files and merges them with nothing dropped. Runs inside your session.",
+      "version": "1.0.0",
+      "category": "research",
+      "homepage": "https://indahl.ai/standard"
+    }
+  ]
+}
